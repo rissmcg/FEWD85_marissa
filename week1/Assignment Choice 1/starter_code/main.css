@@ -1,0 +1,36 @@
+body{
+
+	background:pink;
+}
+
+header{
+
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	border: solid pink 5px;
+	width:600px;
+	background: white;
+	font-family: verdana;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	color:pink;
+}
+
+section{
+
+	background: white;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:600px;
+	height:500px;
+	font-family: verdana;
+	font-size:14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color:pink;
+}
+
+

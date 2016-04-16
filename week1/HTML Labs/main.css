@@ -1,0 +1,22 @@
+	 header{
+	 	color: blue;
+	 }
+
+	 section{
+	 	
+	 	font-style: italic;
+	 }
+
+	 .section-b {
+	 	color:purple;
+	 }
+
+	 .section-c{
+	 	color:red;
+	 }
+
+	 footer{
+	 	background: yellow;
+	 	font-weight:bold;
+	 
+	 }
