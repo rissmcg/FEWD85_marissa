@@ -3,6 +3,8 @@ body{
 	background:pink;
 }
 
+/* This is where "my portfolio section is" */
+
 header{
 
 	margin-left:auto;
@@ -17,6 +19,8 @@ header{
 	text-align: center;
 	color:pink;
 }
+
+/* This is the styling for the entire rest of my portfolio currently */
 
 section{
 
@@ -33,4 +37,9 @@ section{
 	color:pink;
 }
 
+/* Link coloring goes below */
+
+a {
+	color:pink;
+}
 
