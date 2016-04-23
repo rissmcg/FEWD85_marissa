@@ -49,11 +49,9 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
 }
 
@@ -63,50 +61,67 @@ body {
 /*******************************************/
 
 /* Center the container */
-#cover {
+.wrapper {
   width: 70%;
   margin: auto;
-  height: 500px;
+}
 
+header{
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 1px;
 }
 
 header h1 {
-font-family: 'Open Sans 600', sans-serif;
-color: white;
+font-family: 'Open Sans', sans-serif;
+font-style: Extrabold;
 font-size: 24px;
+color: white;
 text-align: left;
 }
 
 header h2{
-  font-family: 'Open Sans 100', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: Semibold;
+  font-size: 24px;
   color: white;
-  font-size: 20px;
   text-align: center;
 }
 
-.get-it-now{
+ 
+.get-it-now-button{
   background-color: #f9e42e;
   border-radius: 7px;
-  width: 200px;
+  width: 50%;
   height: 40px;
-  margin: 20%;
+  margin: 0 auto;
   display: block;
   text-align: center;
-
+  font-size: 14px;
+  font-style: ;
+  position: relative;
 }
 
-.benefits{
+.benefits {
   background-color: #f0efef;
-  background-size: cover;
+  padding: 25px 0px;
   width: 70%;
   margin: auto;
   height: 500px;
 }
 
 .benefits h1{
-  font-family: 'Open Sans SemiBold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: semibold;
   font-size: 20px;
+  color: black;
+}
+
+.benefits p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   color: black;
 }
 
