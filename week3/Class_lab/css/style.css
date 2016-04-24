@@ -105,6 +105,7 @@ nav li {
   width: 700px;
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 100px;
   vertical-align: top;
   padding-top: 40px;
   float: left;
@@ -141,6 +142,12 @@ section.posts a{
   font-weight: 600;
   font-size: 24px;
   padding-bottom: 50px;
+  text-decoration: none;
+  color: #033048;
+}
+
+section.posts a:hover{
+  color: yellow;
 }
 
 /* HOROZONTAL RULER */
@@ -186,6 +193,11 @@ aside a{
   font-size: 22px;
   font-weight: 600;
   color: #033048;
+  text-decoration: none;
+}
+
+aside a:hover{
+  color: yellow;
 }
 
 section.button-box{
@@ -244,6 +256,8 @@ footer p{
   font-weight: 300;
   color: white;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
